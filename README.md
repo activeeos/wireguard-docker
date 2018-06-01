@@ -47,7 +47,7 @@ capabilities are necessary:
 ```bash
 docker run -it --rm --cap-add net_admin --cap-add sys_module \
        -v /etc/wireguard:/etc/wireguard -v /lib/wireguard:/lib/wireguard \
-	   -p 5555:5555/udp activeeos/wireguard-docker
+       -p 5555:5555/udp activeeos/wireguard-docker
 ```
 
 ## Inspiration
