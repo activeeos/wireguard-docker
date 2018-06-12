@@ -7,7 +7,7 @@ Docker containers by sharing the same Docker network.
 ## Requirements
 
 Unfortunately, due to Wireguard's kernel module, this image only run
-on kernels where the Ubuntu 16.04, the OS for the base image, can pull
+on kernels where Ubuntu 16.04, the OS for the base image, can pull
 down kernel headers. This has been verified to work on kernels 4.13
 and newer.
 
