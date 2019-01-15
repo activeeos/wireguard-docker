@@ -25,7 +25,7 @@ $ docker pull activeeos/wireguard-docker
 ### Configuration
 
 A volume has to be mounted at `/etc/wireguard` containing a single
-configuration file with a `.conf` file corresponding to the VPN
+configuration file with a `.conf` extension corresponding to the VPN
 interface.
 
 More information about the structure of this file can be found in the
